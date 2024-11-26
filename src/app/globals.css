@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    @apply w-scrollbar
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-gray/10
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-aqua-splash/40 rounded-xl
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-aqua-splash/30
+  }
+}
